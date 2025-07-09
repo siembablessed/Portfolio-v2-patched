@@ -9,7 +9,6 @@ export default function ContactSection() {
     e.preventDefault();
     setSubmitted(true);
     // Integrate with Formspree, Resend, or backend here
-    //new things
   };
 
   return (
@@ -18,9 +17,9 @@ export default function ContactSection() {
       className="scroll-mt-16 min-h-[60vh] py-20 px-4 md:px-16 flex flex-col items-start gap-10"
     >
       <div>
-        <h2 className="text-3xl font-bold">Let’s Connect</h2>
+        <h2 className="text-3xl font-bold">Let&rsquo;s Connect</h2>
         <p className="text-muted-foreground mt-2 max-w-xl">
-          Whether it's about a project, collaboration, or just a hello — I’d love
+          Whether it&apos;s about a project, collaboration, or just a hello I&rsquo;d love
           to hear from you.
         </p>
       </div>
@@ -56,7 +55,7 @@ export default function ContactSection() {
           </button>
         </form>
       ) : (
-        <p className="text-green-600 text-sm">Thanks! I'll get back to you soon.</p>
+        <p className="text-green-600 text-sm">Thanks! I&apos;ll get back to you soon.</p>
       )}
 
       <p className="text-sm text-muted-foreground">
