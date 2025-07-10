@@ -59,12 +59,12 @@ export default function ContactSection() {
       )}
 
       <p className="text-sm text-muted-foreground">
-        Or email me directly at{" "}
+        Or Contact me directly on{" "}
         <a
-          href="mailto:simbamahla@gmail.com"
+          href="https://w.app/simbaworks"
           className="underline text-foreground"
         >
-          simbamahla@gmail.com
+          WhatsApp
         </a>
       </p>
     </section>
